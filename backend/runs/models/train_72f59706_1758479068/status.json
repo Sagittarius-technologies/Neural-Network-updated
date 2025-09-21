@@ -1,0 +1,16 @@
+{
+    "run_id": "train_72f59706_1758479068",
+    "status": "completed",
+    "start_time": 1758479068.3851128,
+    "end_time": 1758479068.7854755,
+    "error": null,
+    "parameters": {
+        "k": 4,
+        "pca_comp": 50,
+        "epochs": 50,
+        "centroid_percentile": 95.0,
+        "filename": "sequences_clean.fasta"
+    },
+    "job_type": "training",
+    "model_path": "C:\\MY FOLDER\\Hackathon\\Smart India Hackathon - 2025\\Project\\deep-sea-edna-ai\\Clustering NN\\backend\\runs\\models\\train_72f59706_1758479068\\mlp_model.joblib"
+}

@@ -18,7 +18,7 @@ from pathlib import Path
 import importlib
 import inspect
 
-import clust_nn_pipeline_sklearn  # makes KmerVectorizer available
+import backend.clust_nn_pipeline_sklearn as clust_nn_pipeline_sklearn  # makes KmerVectorizer available
 from joblib import load
 
 ROOT = Path(__file__).parent

@@ -1,0 +1,16 @@
+{
+    "run_id": "train_c8c2c168_1758478829",
+    "status": "failed",
+    "start_time": 1758478829.6895864,
+    "end_time": 1758478829.9683428,
+    "error": "The test_size = 2 should be greater or equal to the number of classes = 10",
+    "parameters": {
+        "k": 4,
+        "pca_comp": 50,
+        "epochs": 50,
+        "centroid_percentile": 95.0,
+        "filename": "sequences_clean.fasta"
+    },
+    "job_type": "training",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\MY FOLDER\\Hackathon\\Smart India Hackathon - 2025\\Project\\deep-sea-edna-ai\\Clustering NN\\backend\\main.py\", line 108, in run_training_task\n    model_path = pipeline.train_from_labeled_fasta(\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\MY FOLDER\\Hackathon\\Smart India Hackathon - 2025\\Project\\deep-sea-edna-ai\\Clustering NN\\backend\\pipeline.py\", line 400, in train_from_labeled_fasta\n    X_train, X_test, y_train, y_test = train_test_split(\n                                       ^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\_param_validation.py\", line 218, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\anaconda3\\Lib\\site-packages\\sklearn\\model_selection\\_split.py\", line 2940, in train_test_split\n    train, test = next(cv.split(X=arrays[0], y=stratify))\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\anaconda3\\Lib\\site-packages\\sklearn\\model_selection\\_split.py\", line 1927, in split\n    for train, test in self._iter_indices(X, y, groups):\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\HP\\anaconda3\\Lib\\site-packages\\sklearn\\model_selection\\_split.py\", line 2355, in _iter_indices\n    raise ValueError(\nValueError: The test_size = 2 should be greater or equal to the number of classes = 10\n"
+}

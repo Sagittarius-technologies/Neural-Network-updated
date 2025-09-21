@@ -1,0 +1,22 @@
+{
+    "run_id": "predict_922f3238_1758479376",
+    "status": "completed",
+    "start_time": 1758479376.8352501,
+    "end_time": 1758479378.1364956,
+    "error": null,
+    "parameters": {
+        "cluster_method": "kmeans",
+        "kmeans_n": 10,
+        "dbscan_eps": 0.5,
+        "dbscan_min": 5,
+        "threshold": 0.7,
+        "model_run_id": "train_72f59706_1758479068",
+        "filename": "raw_sequences.fasta"
+    },
+    "job_type": "prediction",
+    "results_info": {
+        "total_sequences": 6,
+        "num_clusters": 6,
+        "medoids_found": 6
+    }
+}
